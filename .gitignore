@@ -1,0 +1,9 @@
+# Ignorar archivos de sockets y bases de datos temporales
+db/mysql.sock
+db/ib_logfile*
+db/ibdata*
+db/*.pid
+db/*.err
+db/*.cnf
+db/*.index
+db/auto.cnf
